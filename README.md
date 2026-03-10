@@ -99,4 +99,44 @@ Para entender el Big Data, usamos estas dimensiones clave:
 - **Optimización:** Mejorar procesos industriales o rutas de logística en tiempo real.
 
 > 📊 **Dato curioso:** Se estima que cada persona genera más de 1.7 MB de datos por segundo. ¡Eso es mucho Big Data!
+# 📊 Análisis de Datos (Data Analysis)
+
+> El arte de transformar datos crudos en historias que impulsan decisiones. ✨
+
+---
+
+## 🔍 ¿Qué es el Análisis de Datos?
+Es el proceso de **inspeccionar, limpiar y modelar datos** con el objetivo de descubrir información útil, llegar a conclusiones y apoyar la toma de decisiones. No es solo mirar números, es entender el **"por qué"** detrás de ellos.
+
+### 🔄 El Ciclo de Vida
+`Definir Pregunta` ➔ `Recolectar` ➔ `Limpiar` ➔ `Analizar` ➔ `Visualizar`
+
+---
+
+## 🛠️ Toolbox: Herramientas del Analista
+
+
+| Categoría | Herramientas Principales |
+| :--- | :--- |
+| **🐍 Programación** | `Python` (Pandas, NumPy) • `R` |
+| **🗄️ Bases de Datos** | `SQL` (PostgreSQL, MySQL, BigQuery) |
+| **📉 Visualización** | `Tableau` • `Power BI` • `Matplotlib` / `Seaborn` |
+| **📓 Entornos** | `Jupyter Notebooks` • `Google Colab` |
+| **Excel Pro** | `Pivot Tables` • `VBA` • `Power Query` |
+
+---
+
+## 💡 Tipos de Análisis
+
+*   **1️⃣ Descriptivo:** ¿Qué pasó? *(Resúmenes históricos)*
+*   **2️⃣ Diagnóstico:** ¿Por qué pasó? *(Búsqueda de causas)*
+*   **3️⃣ Predictivo:** ¿Qué podría pasar? *(Modelos y tendencias)*
+*   **4️⃣ Prescriptivo:** ¿Qué deberíamos hacer? *(Recomendaciones)*
+
+---
+
+```sql
+SELECT insight, impacto 
+FROM realidad_de_datos 
+WHERE valor = 'Máximo';
 
