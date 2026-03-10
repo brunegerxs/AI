@@ -140,3 +140,50 @@ SELECT insight, impacto
 FROM realidad_de_datos 
 WHERE valor = 'Máximo';
 
+# 📉 Dataset vs. DataFrame: Entendiendo la diferencia
+
+Mucha gente los confunde, pero aunque están relacionados, cumplen funciones muy distintas en el mundo de los datos.
+
+---
+
+## 📂 ¿Qué es un Dataset? (El Conjunto)
+Es la **fuente de información**. Imaginalo como el archivo bruto. Es una colección de datos que puede venir en muchos formatos (CSV, Excel, JSON, o incluso una carpeta llena de imágenes).
+
+> 💡 **En resumen:** Es el "paquete" de datos que descargás de internet o extraés de una base de datos.
+
+---
+
+## 📋 ¿Qué es un DataFrame? (La Herramienta)
+Es una **estructura de datos** que vive dentro de tu código (normalmente en Python con Pandas o en R). Es una tabla bidimensional (filas y columnas) que te permite manipular, filtrar y limpiar los datos del dataset de forma fácil.
+
+> 💡 **En resumen:** Es como abrir tu archivo CSV en un "Excel superpotente" dentro de tu programa.
+
+---
+
+## ⚖️ Comparativa Rápida
+
+
+| Característica | Dataset | DataFrame |
+| :--- | :--- | :--- |
+| **Naturaleza** | Es el archivo físico o la fuente. | Es un objeto en la memoria de la PC. |
+| **Formato** | .csv, .xlsx, .sql, .json | Estructura de tabla (filas/columnas). |
+| **Uso** | Almacenamiento y transporte. | Análisis, limpieza y cálculos. |
+| **Ejemplo** | Un archivo `ventas_2023.csv`. | La variable `df` que creás en Python. |
+
+---
+
+## 🧩 La Analogía Perfecta
+*   El **Dataset** es la **harina** (la materia prima que está en la bolsa).
+*   El **DataFrame** es la **masa** (la harina ya preparada en la mesa para empezar a cocinar).
+
+---
+
+```python
+# Así es como convertimos un Dataset en un DataFrame
+import pandas as pd
+
+# 'data.csv' es el DATASET
+df = pd.read_csv('data.csv') 
+
+# 'df' ahora es el DATAFRAME listo para usar
+print(df.head())
