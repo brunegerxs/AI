@@ -100,8 +100,3 @@ Para entender el Big Data, usamos estas dimensiones clave:
 
 > 📊 **Dato curioso:** Se estima que cada persona genera más de 1.7 MB de datos por segundo. ¡Eso es mucho Big Data!
 
-
-
-
-
-
