@@ -280,59 +280,61 @@ Este repositorio contiene conceptos clave sobre Inteligencia Artificial y las li
 | **Funcionalidad** | **Memoria Limitada** | Aprende de datos pasados. | Autos autónomos |
 
 ---
+# 🤖 Guía de Inteligencia Artificial
 
-## 🛠️ 2. Librerías Esenciales
-
-### 🔢 NumPy
-Es la base del cálculo numérico. Permite manejar **Arrays** (matrices) de forma ultra rápida.
-* **Uso:** Álgebra lineal y cálculos matemáticos.
-
-### 🐼 Pandas
-Es el "Excel" de Python. Maneja **DataFrames** (tablas).
-* **Uso:** Limpieza, filtrado y análisis de datos.
+Resumen sobre tipos de IA y librerías esenciales de Python.
 
 ---
 
-# 🤖 Guía de IA y Ciencia de Datos
-
-Este repositorio contiene conceptos clave sobre Inteligencia Artificial y las librerías fundamentales de Python.
-
----
-
-## 🧠 1. Tipos de Inteligencia Artificial
+## 🧠 1. Clasificación de la IA
 
 
-| Categoría | Nombre | Descripción | Ejemplo |
-| :--- | :--- | :--- | :--- |
-| **Capacidad** | **ANI** (Estrecha) | Especializada en una sola tarea. | ChatGPT, Alexa |
-| **Capacidad** | **AGI** (General) | Nivel humano, puede razonar. | Teórico |
-| **Funcionalidad** | **Reactiva** | No tiene memoria, solo responde. | Deep Blue |
-| **Funcionalidad** | **Memoria Limitada** | Aprende de datos pasados. | Autos autónomos |
-
----
-
-## 🛠️ 2. Librerías Esenciales
-
-### 🔢 NumPy
-Es la base del cálculo numérico. Permite manejar **Arrays** (matrices) de forma ultra rápida.
-* **Uso:** Álgebra lineal y cálculos matemáticos.
-
-### 🐼 Pandas
-Es el "Excel" de Python. Maneja **DataFrames** (tablas).
-* **Uso:** Limpieza, filtrado y análisis de datos.
-
----
-
-## ⚔️ Comparativa rápida
-
-
-| Característica | 🔢 NumPy | 🐼 Pandas |
+| Categoría | Tipo | Descripción |
 | :--- | :--- | :--- |
-| **Estructura** | Matrices (`ndarray`) | Tablas (`DataFrame`) |
-| **Datos** | Solo números | Texto, números, fechas |
-| **Fortaleza** | Velocidad de cálculo | Organización de datos |
+| **Capacidad** | **ANI** | IA Estrecha (especializada). Ej: ChatGPT. |
+| **Capacidad** | **AGI** | IA General (nivel humano). *Teórico*. |
+| **Funcionalidad** | **Reactiva** | Sin memoria. Ej: Deep Blue (Ajedrez). |
+| **Funcionalidad** | **Memoria** | Aprende de datos previos. Ej: Tesla. |
 
 ---
+
+## 🛠️ 2. Librerías de Datos
+
+### 🔢 NumPy
+* **¿Qué es?** El motor de cálculo numérico.
+* **Sirve para:** Operaciones matemáticas rápidas y matrices.
+
+### 🐼 Pandas
+* **¿Qué es?** El "Excel" de Python.
+* **Sirve para:** Manipular tablas (DataFrames) y limpiar datos.
+
+---
+
+> 💡 **Nota:** NumPy es la potencia y Pandas es la organización.
+
+📦 ¿Qué es pip?
+Es la herramienta que te permite instalar y administrar librerías adicionales que no vienen incluidas en la instalación básica de Python (como NumPy, Pandas, o Flask).
+¿Para qué sirve?
+Instalar: Descarga librerías desde el repositorio oficial llamado PyPI.
+Actualizar: Mantiene tus librerías al día.
+Desinstalar: Elimina lo que ya no necesitás.
+Gestionar dependencias: Crea archivos como requirements.txt para que otros puedan instalar las mismas versiones que usás vos.
+💻 Comandos más usados
+Para usarlo, no se escribe dentro de Python, sino en la terminal o consola:
+Acción	Comando
+Instalar una librería	pip install nombre_libreria
+Ver qué tenés instalado	pip list
+Actualizar pip	python -m pip install --upgrade pip
+Desinstalar	pip uninstall nombre_libreria
+💡 Ejemplo real
+Si querés instalar Pandas y NumPy para tu proyecto, solo escribís:
+
+
+---
+
+
+
+
 > 💡 *Tip: NumPy es el motor y Pandas es el tablero de control.*
 
 
