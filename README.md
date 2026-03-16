@@ -329,6 +329,42 @@ Desinstalar	pip uninstall nombre_libreria
 💡 Ejemplo real
 Si querés instalar Pandas y NumPy para tu proyecto, solo escribís:
 
+📄 ¿Qué es un CSV?
+Es un archivo de texto plano que organiza la información en filas y columnas. Se usa muchísimo en Ciencia de Datos e IA porque es liviano y fácil de leer para cualquier programa.
+¿Para qué sirve?
+Intercambio de datos: Para pasar datos de Excel a Python o de una base de datos a una aplicación.
+Almacenamiento: Guardar listas de clientes, precios, sensores o cualquier tabla de manera simple.
+Compatibilidad: Lo abren Excel, Google Sheets, Pandas, SQL y hasta el Bloc de notas.
+🔍 ¿Cómo se ve por dentro?
+Aunque en Excel lo ves con celdas, si lo abrís con el bloc de notas se ve así:
+csv
+Nombre,Edad,Ciudad
+Ana,25,Madrid
+Leo,30,Buenos Aires
+Marta,22,México DF
+Usa el código con precaución.
+
+Cada coma representa el salto a la siguiente columna y cada línea es una fila nueva.
+🐍 ¿Cómo se usa en Python?
+Con Pandas, podés convertir ese archivo de texto en una tabla de datos real con una sola línea:
+python
+import pandas as pd
+
+# Cargar el archivo CSV
+df = pd.read_csv('datos.csv')
+
+# Ver los primeros datos
+print(df.head())
+Usa el código con precaución.
+
+💡 Dato clave para tu GitHub
+En el mundo de los datos, casi siempre vas a recibir la información en archivos .csv para limpiarlos con Pandas y luego procesarlos con NumPy.
+¿Te gustaría que te ayude a armar una sección final de "Conceptos de Datos" con esto para tu README?
+Las respuestas de la IA pueden contener errores. Más información
+
+
+
+
 
 ---
 
