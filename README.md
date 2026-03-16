@@ -11,6 +11,58 @@ q es el machine learning?(tipos de ml)(diferentes aprendizajes)
 La **IA** es el campo de la ciencia informática que busca crear sistemas capaces de realizar tareas que, normalmente, requieren del **razonamiento humano**. No es solo "código", es la capacidad de percibir, razonar, aprender y actuar.
 
 > 💡 **En resumen:** Es el concepto paraguas que abarca todo lo que hace que una máquina parezca "inteligente".
+> # 🧠 Tipos de Inteligencia Artificial (IA)
+
+Una guía visual y rápida para entender cómo se clasifica la IA hoy en día.
+
+---
+
+## 🚀 1. Según su Capacidad (Alcance)
+Esta clasificación define qué tan "inteligente" es la IA en comparación con un humano.
+
+
+| Tipo | Concepto | Estado Actual | Ejemplo |
+| :--- | :--- | :--- | :--- |
+| **ANI** | **IA Estrecha**: Especializada en una sola tarea. | ✅ Funcional | ChatGPT, Alexa, Netflix. |
+| **AGI** | **IA General**: Capacidad de razonar como un humano. | 🔬 En pañales | Teórico. |
+| **ASI** | **Superinteligencia**: Supera al cerebro humano. | 🎬 Ciencia Ficción | Skynet (Terminator). |
+
+---
+
+## ⚙️ 2. Según su Funcionalidad (Clasificación de Hintze)
+Basado en cómo la IA procesa la información y la memoria.
+
+### 🧊 01. Máquinas Reactivas
+Son las más básicas. No tienen memoria y no aprenden de experiencias pasadas.
+*   **Foco:** Responder a estímulos actuales.
+*   **Ejemplo:** Deep Blue (Ajedrez).
+
+### 💾 02. Memoria Limitada
+Pueden mirar datos históricos para tomar decisiones. La mayoría de la IA moderna está aquí.
+*   **Foco:** Aprendizaje basado en datos previos.
+*   **Ejemplo:** Vehículos autónomos, Reconocimiento facial.
+
+### 🧠 03. Teoría de la Mind
+IA que puede entender emociones, creencias y procesos de pensamiento humano.
+*   **Estado:** En fase de investigación/prototipo.
+
+### 👁️ 04. Autoconciencia
+IA con conciencia de sí misma, sentimientos y necesidades propias.
+*   **Estado:** Hipotético (El nivel máximo).
+
+---
+
+## 🎨 3. Clasificación por Aplicación Moderna
+
+*   **IA Generativa (GenAI):** Crea contenido nuevo (texto, imagen, video). 
+    *   *Herramientas:* Midjourney, Claude, DALL-E.
+*   **IA Predictiva:** Analiza patrones para predecir el futuro.
+    *   *Herramientas:* Algoritmos de bolsa, clima, tendencias de compra.
+
+---
+
+> 💡 **Tip:** Si querés profundizar, investigá sobre **Machine Learning** (Aprendizaje Automático) y **Deep Learning** (Redes Neuronales), que son los motores detrás de todo esto.
+
 
 ---
 
@@ -186,4 +238,49 @@ import pandas as pd
 df = pd.read_csv('data.csv') 
 
 # 'df' ahora es el DATAFRAME listo para usar
+print(df.head())
+# 🤖 Guía Esencial: Inteligencia Artificial y Ciencia de Datos
+
+Un resumen estructurado sobre los tipos de IA y las librerías fundamentales de Python para empezar en este mundo.
+
+---
+
+## 🧠 1. Tipos de Inteligencia Artificial
+
+La IA se clasifica principalmente por su **capacidad** (qué tan inteligente es) y su **funcionalidad** (cómo procesa la información).
+
+### 🚀 Clasificación por Capacidad
+
+| Tipo | Concepto | Estado Actual | Ejemplo |
+| :--- | :--- | :--- | :--- |
+| **ANI** | **IA Estrecha**: Especializada en una sola tarea. | ✅ Funcional | ChatGPT, Alexa, Netflix. |
+| **AGI** | **IA General**: Capacidad de razonar como un humano. | 🔬 En pañales | Teórico. |
+| **ASI** | **Superinteligencia**: Supera al cerebro humano. | 🎬 Futuro | Skynet (Terminator). |
+
+### ⚙️ Clasificación por Funcionalidad (Hintze)
+*   **01. Máquinas Reactivas:** No tienen memoria. Responden a estímulos actuales (Ej: Ajedrez).
+*   **02. Memoria Limitada:** Aprenden de datos históricos. La mayoría de la IA actual (Ej: Autos autónomos).
+*   **03. Teoría de la Mente:** Entenderían emociones y pensamientos humanos (En desarrollo).
+*   **04. Autoconciencia:** IA con conciencia propia y sentimientos (Hipotético).
+
+---
+
+## 🛠️ 2. Herramientas Clave: NumPy & Pandas
+
+Para hacer que la IA funcione, necesitamos manejar datos. En Python, estas dos librerías son el estándar de la industria.
+
+### 🔢 NumPy (Numerical Python)
+Es el motor de **cálculo numérico**. Permite manejar grandes volúmenes de datos en forma de matrices de manera ultra rápida.
+
+*   **Uso principal:** Álgebra lineal, estadística y cálculos matemáticos complejos.
+*   **Estructura:** El `ndarray` (Array multidimensional).
+
+```python
+import numpy as np
+# Operación rápida con un array
+arr = np.array([1, 2, 3])
+print(arr * 10) # Output: [10, 20, 30]
+import pandas as pd
+# Creando una tabla rápida
+df = pd.DataFrame({'Usuario': ['Ana', 'Leo'], 'Puntos': [95, 88]})
 print(df.head())
