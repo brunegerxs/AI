@@ -263,24 +263,77 @@ La IA se clasifica principalmente por su **capacidad** (qué tan inteligente es)
 *   **03. Teoría de la Mente:** Entenderían emociones y pensamientos humanos (En desarrollo).
 *   **04. Autoconciencia:** IA con conciencia propia y sentimientos (Hipotético).
 
+# 🤖 Guía de IA y Ciencia de Datos
+
+Este repositorio contiene conceptos clave sobre Inteligencia Artificial y las librerías fundamentales de Python.
+
 ---
 
-## 🛠️ 2. Herramientas Clave: NumPy & Pandas
+## 🧠 1. Tipos de Inteligencia Artificial
 
-Para hacer que la IA funcione, necesitamos manejar datos. En Python, estas dos librerías son el estándar de la industria.
 
-### 🔢 NumPy (Numerical Python)
-Es el motor de **cálculo numérico**. Permite manejar grandes volúmenes de datos en forma de matrices de manera ultra rápida.
+| Categoría | Nombre | Descripción | Ejemplo |
+| :--- | :--- | :--- | :--- |
+| **Capacidad** | **ANI** (Estrecha) | Especializada en una sola tarea. | ChatGPT, Alexa |
+| **Capacidad** | **AGI** (General) | Nivel humano, puede razonar. | Teórico |
+| **Funcionalidad** | **Reactiva** | No tiene memoria, solo responde. | Deep Blue |
+| **Funcionalidad** | **Memoria Limitada** | Aprende de datos pasados. | Autos autónomos |
 
-*   **Uso principal:** Álgebra lineal, estadística y cálculos matemáticos complejos.
-*   **Estructura:** El `ndarray` (Array multidimensional).
+---
 
-```python
-import numpy as np
-# Operación rápida con un array
-arr = np.array([1, 2, 3])
-print(arr * 10) # Output: [10, 20, 30]
-import pandas as pd
-# Creando una tabla rápida
-df = pd.DataFrame({'Usuario': ['Ana', 'Leo'], 'Puntos': [95, 88]})
-print(df.head())
+## 🛠️ 2. Librerías Esenciales
+
+### 🔢 NumPy
+Es la base del cálculo numérico. Permite manejar **Arrays** (matrices) de forma ultra rápida.
+* **Uso:** Álgebra lineal y cálculos matemáticos.
+
+### 🐼 Pandas
+Es el "Excel" de Python. Maneja **DataFrames** (tablas).
+* **Uso:** Limpieza, filtrado y análisis de datos.
+
+---
+
+# 🤖 Guía de IA y Ciencia de Datos
+
+Este repositorio contiene conceptos clave sobre Inteligencia Artificial y las librerías fundamentales de Python.
+
+---
+
+## 🧠 1. Tipos de Inteligencia Artificial
+
+
+| Categoría | Nombre | Descripción | Ejemplo |
+| :--- | :--- | :--- | :--- |
+| **Capacidad** | **ANI** (Estrecha) | Especializada en una sola tarea. | ChatGPT, Alexa |
+| **Capacidad** | **AGI** (General) | Nivel humano, puede razonar. | Teórico |
+| **Funcionalidad** | **Reactiva** | No tiene memoria, solo responde. | Deep Blue |
+| **Funcionalidad** | **Memoria Limitada** | Aprende de datos pasados. | Autos autónomos |
+
+---
+
+## 🛠️ 2. Librerías Esenciales
+
+### 🔢 NumPy
+Es la base del cálculo numérico. Permite manejar **Arrays** (matrices) de forma ultra rápida.
+* **Uso:** Álgebra lineal y cálculos matemáticos.
+
+### 🐼 Pandas
+Es el "Excel" de Python. Maneja **DataFrames** (tablas).
+* **Uso:** Limpieza, filtrado y análisis de datos.
+
+---
+
+## ⚔️ Comparativa rápida
+
+
+| Característica | 🔢 NumPy | 🐼 Pandas |
+| :--- | :--- | :--- |
+| **Estructura** | Matrices (`ndarray`) | Tablas (`DataFrame`) |
+| **Datos** | Solo números | Texto, números, fechas |
+| **Fortaleza** | Velocidad de cálculo | Organización de datos |
+
+---
+> 💡 *Tip: NumPy es el motor y Pandas es el tablero de control.*
+
+
+
