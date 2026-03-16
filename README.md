@@ -373,5 +373,45 @@ Las respuestas de la IA pueden contener errores. Más información
 
 > 💡 *Tip: NumPy es el motor y Pandas es el tablero de control.*
 
+## 📊 Conceptos Fundamentales de Datos
+
+Para trabajar con IA, es vital entender cómo se organiza la información que procesamos.
+
+### 📁 1. Dataset (Conjunto de Datos)
+Es una **colección de datos** relacionada con un tema específico. Puede ser cualquier cosa: una lista de precios, imágenes de perros, audios o textos de Twitter.
+*   **¿Para qué sirve?** Es la "materia prima" con la que entrenamos a la Inteligencia Artificial.
+*   **Formatos comunes:** `.csv`, `.json`, `.xlsx` (Excel) o bases de datos SQL.
+
+### 📋 2. DataFrame (Estructura de Tabla)
+Es la forma en que **Pandas** organiza un Dataset dentro de Python. Imaginalo como una **hoja de cálculo de Excel interactiva**.
+*   **¿Para qué sirve?** Para limpiar, filtrar y analizar los datos de forma programática.
+*   **Componentes:** Tiene **Filas** (registros), **Columnas** (características) e **Índices** (posiciones).
+
+---
+
+## 💡 Analogía rápida para no olvidar:
+
+
+| Concepto | Analogía |
+| :--- | :--- |
+| **Dataset** | Es el **archivo físico** (el libro con los datos). |
+| **CSV** | Es el **idioma** en que está escrito (texto separado por comas). |
+| **DataFrame** | Es el **libro abierto** sobre la mesa, listo para leer y subrayar. |
+
+---
+
+### 💻 Ejemplo en Código (Pandas)
+
+```python
+import pandas as pd
+
+# El archivo .csv es el DATASET
+dataset_path = 'usuarios.csv'
+
+# Al leerlo con Pandas, se convierte en un DATAFRAME
+df = pd.read_csv(dataset_path)
+
+# Ahora podemos manipularlo
+print(df.describe()) # Nos da un resumen estadístico de la tabla
 
 
